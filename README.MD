@@ -3,6 +3,10 @@ This is an official Kong Easter Eggs plugin (adding 'official' always makes it m
 It's production-ready (2 untested functions) and AI based (built on more more than 5 IFs).
 Sponsored by Y-Carburetor© and Bugs Bunny. 
 
+```commandline
+luarocks install kong-easter-eggs
+```
+
 
 ## Local Development
 

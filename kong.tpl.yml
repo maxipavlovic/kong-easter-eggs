@@ -1,0 +1,13 @@
+_format_version: "1.1"
+
+services:
+- name: Nanoservice
+  url: https://example.com
+  plugins:
+  - name: kong-easter-eggs
+    config:
+      dance_link: https://youtu.be/dQw4w9WgXcQ
+  routes:
+  - name: route-66
+    paths:
+    - /

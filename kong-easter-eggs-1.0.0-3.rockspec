@@ -1,16 +1,18 @@
 package = "kong-easter-eggs"
 
-version = "1.0.0-1"
+version = "1.0.0-3"
 
 supported_platforms = {"linux", "macosx"}
 
 source = {
-  url = "file://"
+  url = "git://github.com/maxipavlovic/kong-easter-eggs",
+  tag = "1.0.0"
 }
 
 description = {
   summary = "A Kong plugin for adding of Easter Eggs to your API",
-  license = "MIT"
+  license = "MIT",
+  maintainer = "Max Kolyubyakin <maxipavlovic@gmail.com>"
 }
 
 dependencies = {

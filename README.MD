@@ -6,9 +6,23 @@ Sponsored by Y-Carburetor© and Bugs Bunny.
 
 ## Local Development
 
-For local development we need to create create and setup Kong declarative configuration.
+For local development we need to create and setup Kong declarative configuration.
 ```commandline
 cp kong.tpl.yml kong.yml
+```
+
+Let's adjust `plugins` setting in `kong.yml`:
+```yaml
+plugins:
+  - name: kong-easter-eggs
+    config:
+      dance_link: https://youtu.be/dQw4w9WgXcQ
+      prize_frequency: 3
+      prizes: [
+        "COVID-19 vaccine",
+        "Ticket to Crew Dragon",
+        "Early access to Half-Life 3"
+      ]
 ```
 
 Now we can start Kong:
